@@ -1,0 +1,99 @@
+Meraki Store Order Management
+------------------------------
+
+Meraki Store Enquiry Lifecycle
+---------------------------
+
+1) Sales Person will create an enquiry in the system if any customer approaches for any details.
+2) Enquiry will have a lifecycle. (In Progress, Request for Quotation, Quotation Generated, Approved, On Hold, Cancel).
+3) In Progress --> In this case, still details w.r.t order are being filled by the sales person.
+4) Communication happens between the sales person and the customer frequently for the order and quality details.
+5) Request For Quotation --> Once all the details are filled, the sales person requests a quote from the admin for price details.
+6) Quotation Generated --> Once Admin Reviews the enquiry details, he will give the price details on the quotation page and generates the quotation for the enquiry.
+7) Once the quotation is successfully generated, the enquiry status will be as Quotation Generated and Sales person can view the quotations, download the PDF and email the quotation to the customers.
+8) Depending upon the customer approval, the enquiry can either be approved, put on hold or may be cancelled depending upon the discussion between them.
+9) During some cases, customer may also request for revised quotation with less price details as agreed between them.
+10) In this case, the admin can again generate the quotation with new price details and sales person can view the revised quotation details and send out to the customer.
+11) If the customer is not satisfied or got some other person who can deliver the order, the enquiry can be cancelled. In some cases, it may be put on hold. The lifecycle stops here for the enquiry.
+12) Once the enquiry is approved in the system, sales will proceed with order creation with the effective quotation price.
+
+Meraki Store Order Lifecycle
+-----------------------------
+
+1) Once quotation is proceeded with order creation, sales person will click on Proceed with Order Creation.
+2) This will lead to create order page where sales person are required to fill in some details.
+3) Once all mandatory fields are filled in, Order will be created with Request for Order Confirmation Status. Admin needs to revise order details and confirm the order.
+4) Order will have a lifecycle (Request for Order Confirmation, Order Confirmed,
+   Performa Invoice Generated, Request for Advance Payment, Request for Advance Payment Confirmation, Advance Payment Confirmed, Purchase Order Created,
+   Payment Receipt Generated, Order Sent To Production, Request for Sample Products, Sample Products Received,
+   Proceed with Bulk Printing, Order Shipped, Delivery Challan Generated, Order Delivered, Invoice Generated,
+   Request for Pending Payment, Full Payment Received, Order Completed)
+5) Order Management and Interaction with Vendors is done by Admin and managed in a Separate page. Sales persons have no control on this page.
+
+
+Lead Source --> Dropdown list, JustDial, Indiamart, previous clients, marketing, others
+Printing Types Descr
+Date --> Date Time (DD-MMM-YYYY HH:MM:SS)
+Notes & Reminder
+GST Tax (%)
+PDF Email Automation
+Tech Packs Generation
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+Request for Order Confirmation,
+
+Order Confirmed,
+
+Proforma Invoice Generated,
+
+Request for Advance Payment,
+
+Request for Advance Payment Confirmation,
+
+Advance Payment Confirmed,
+
+Payment Receipt Generated,
+
+Purchase Order Created, (Logic for Terms & Conditions, Special Notes)
+
+Order Sent To Production, (Place holder for adding status updates)
+
+Request for Sample Products,
+
+Sample Products Received,
+
+Request for Revised Sample Products (Place holder for any modifications)
+
+Proceed with Bulk Printing, (Place holder for any modifications)
+
+Order Shipped,
+
+Delivery Challan Generated,
+
+Order Delivered,
+
+Tax Invoice Generated,
+
+Request for Pending Payment,
+
+Full Payment Received,
+
+Final Payment Receipt Generated,
+
+Order Completed.
+
+
+Enquiry lifecycle
+-----------------------------
+
+1) Mr.concernedLeadPerson created merchandise enquiry for organizationName.
+
+organizationName is organizing eventName on eventDate at eventPlace. As part of that event, we got a request for following products. (quantity and products to be displayed)
+View the Enquiry form below for more details.
+
+2) Mr.concernedLeadPerson has requested for quotation price for the merchandise. Awaiting the counter action of Admin for Quotation Details.
