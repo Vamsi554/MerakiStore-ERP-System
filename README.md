@@ -117,13 +117,12 @@ application.
 
 # Technology Stack
 
-            Architecture   	                 Model-View-Controller Design Pattern
-            Web Server    	                 Apache Server
-            Operating System	                Linux
-            Front End	                         HTML, CSS, JavaScript, JQuery, AJAX, Bootstrap, Laravel Blades
-            Back End	                         PHP, Laravel Framework
-            Database	                         MySQL 
-                                                                                                                         
+            * Architecture: Model-View-Controller Design Pattern
+            * Web Server: Apache Server
+            * Operating System: Linux
+            * Front End: HTML, CSS, JavaScript, JQuery, AJAX, Bootstrap, Laravel Blades
+            * Back End: PHP, Laravel Framework
+            * Database: MySQL                                                                                                  
 
 1.The system collects and manages the everyday data related to the orders/enquiries and presents to the user when required.
 
