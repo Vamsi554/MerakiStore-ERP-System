@@ -6,20 +6,21 @@
 
 # Introduction
 
-	ERP application has been designed and developed for Meraki Stores to handle its business orders efficiently.
-	The main aim of the system is to bring the existing workflow processing system online and store information efficiently and securely.
-	This can be used later for reviewing, tracking and analyzing the business model further for better customer experience.
-	Frequent terminology encountered during the lifecycle processing includes Enquiry, Enquiry Requirements, Enquiry Quotations, Order, Purchase Order, Tech Pack, Proforma Invoice, Advance Payments, Full Payments, Vendor Payments, Delivery Challan, Tax Invoice.
-	Enquiry will be created in the system whenever any order is to be taken up. All the details required are captured as part of enquiry requirements.
-	Once all requirements are received, quotation price details are entered into the system and quotations are generated. There might be chances of generating the revised quotations too at times.
-	Once a quotation is accepted, order is created on top of quoted price and customer is confirmed with on the order details.
-	Then purchase order to the respective vendor is created and order is confirmed to the production.
-	Production team will give frequent updates and details about order delivery.
-	Finally, the order is delivered to the customer.
-	The application automates the entire order processing stages, stores all the information and displays when required in future.
-	Analytics will also be done on the data and can be useful for making important decisions.
+1. ERP application has been designed and developed for Meraki Stores to handle its business orders efficiently.
+2. The main aim of the system is to bring the existing workflow processing system online and store information efficiently and securely.
+3. This can be used later for reviewing, tracking and analyzing the business model further for better customer experience.
+4. Frequent terminology encountered during the lifecycle processing includes Enquiry, Enquiry Requirements, Enquiry Quotations, Order, Purchase Order, Tech Pack, Proforma Invoice, Advance Payments, Full Payments, Vendor Payments, Delivery Challan, Tax Invoice.
+5. Enquiry will be created in the system whenever any order is to be taken up. All the details required are captured as part of enquiry requirements.
+6. Once all requirements are received, quotation price details are entered into the system and quotations are generated. There might be chances of generating the revised quotations too at times.
+7. Once a quotation is accepted, order is created on top of quoted price and customer is confirmed with on the order details.
+8. Then purchase order to the respective vendor is created and order is confirmed to the production.
+9. Production team will give frequent updates and details about order delivery.
+10. Finally, the order is delivered to the customer.
+11.	The application automates the entire order processing stages, stores all the information and displays when required in future.
+12.	Analytics will also be done on the data and can be useful for making important decisions.
 
 # Current System
+
 	Currently at Meraki, Order processing is done manually by the team. Traditional file-based data storage approach is used where information is captured in Word documents, Excel sheets, Google sheets etc.,
 	This is consuming lots of manual efforts and at times error prone too.
 	To avoid these situations and overcome manual efforts, highly secured web application has been designed which brings the entire system online and provides an efficient way of handling enquiries and orders and better tracking of order status at respective stages in the order lifecycle.
