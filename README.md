@@ -117,9 +117,9 @@ application.
 
 # Technology Stack
 
-            Architecture 	                   Model-View-Controller Design Pattern
-            Web Server    	                   Apache Server
-            Operating System	                   Linux
+            Architecture   	                 Model-View-Controller Design Pattern
+            Web Server    	                 Apache Server
+            Operating System	                Linux
             Front End	                         HTML, CSS, JavaScript, JQuery, AJAX, Bootstrap, Laravel Blades
             Back End	                         PHP, Laravel Framework
             Database	                         MySQL 
