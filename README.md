@@ -163,4 +163,4 @@ application.
 
 7.Emergency data recovery activities would be conducted once in every two months to cross verify whether we’re able to recover all the data using the latest backup files and issues faced during these stages must be well documented and noted for the future use.
 
-# Go Through the System Operations PDF Document For More Details!
+# Go Through the [System Operations PDF](Meraki_Stores.ERP_System_Operations.pdf) Document For More Details!
